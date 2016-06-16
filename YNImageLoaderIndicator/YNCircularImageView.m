@@ -89,7 +89,7 @@
 
 - (void)setProgress:(CGFloat)progress{
     
-    NSLog(@"progress = %f",progress);
+    //NSLog(@"progress = %f",progress);
     
     if (progress > 1)       shapeLayer.strokeEnd = 1;
     else if (progress < 0)  shapeLayer.strokeEnd = 0;

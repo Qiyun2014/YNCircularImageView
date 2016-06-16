@@ -31,6 +31,7 @@
 		FA12D7FE1D0FF8DA00BDBBAA /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = FA12D7EF1D0FF8DA00BDBBAA /* UIImageView+WebCache.m */; };
 		FA12D7FF1D0FF8DA00BDBBAA /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = FA12D7F11D0FF8DA00BDBBAA /* UIView+WebCacheOperation.m */; };
 		FA12D8011D100A1600BDBBAA /* shorter.gif in Resources */ = {isa = PBXBuildFile; fileRef = FA12D8001D100A1600BDBBAA /* shorter.gif */; };
+		FA1AEBE51D111E7C00B41CFC /* bg_img.png in Resources */ = {isa = PBXBuildFile; fileRef = FA1AEBE41D111E7C00B41CFC /* bg_img.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +100,7 @@
 		FA12D7F01D0FF8DA00BDBBAA /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
 		FA12D7F11D0FF8DA00BDBBAA /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
 		FA12D8001D100A1600BDBBAA /* shorter.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = shorter.gif; sourceTree = "<group>"; };
+		FA1AEBE41D111E7C00B41CFC /* bg_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_img.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +154,7 @@
 				FA12D7D41D0FF8DA00BDBBAA /* SDWebImage */,
 				FA12D7741D0FF05400BDBBAA /* AppDelegate.h */,
 				FA12D7751D0FF05400BDBBAA /* AppDelegate.m */,
+				FA1AEBE41D111E7C00B41CFC /* bg_img.png */,
 				FA12D7771D0FF05400BDBBAA /* ViewController.h */,
 				FA12D7781D0FF05400BDBBAA /* ViewController.m */,
 				FA12D7A41D0FF08E00BDBBAA /* YNCircularImageView.h */,
@@ -333,6 +336,7 @@
 			files = (
 				FA12D7811D0FF05500BDBBAA /* LaunchScreen.storyboard in Resources */,
 				FA12D8011D100A1600BDBBAA /* shorter.gif in Resources */,
+				FA1AEBE51D111E7C00B41CFC /* bg_img.png in Resources */,
 				FA12D77E1D0FF05400BDBBAA /* Assets.xcassets in Resources */,
 				FA12D77C1D0FF05400BDBBAA /* Main.storyboard in Resources */,
 			);
@@ -602,6 +606,7 @@
 				FA12D79D1D0FF05500BDBBAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA12D79E1D0FF05500BDBBAA /* Build configuration list for PBXNativeTarget "YNImageLoaderIndicatorTests" */ = {
 			isa = XCConfigurationList;
@@ -610,6 +615,7 @@
 				FA12D7A01D0FF05500BDBBAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA12D7A11D0FF05500BDBBAA /* Build configuration list for PBXNativeTarget "YNImageLoaderIndicatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -618,6 +624,7 @@
 				FA12D7A31D0FF05500BDBBAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
